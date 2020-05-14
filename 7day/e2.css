@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/*1.float
+.whole{
+	height:500px;
+	max-width:800px;
+	margin:0 auto;	
+}
+.left{
+	height:500px;
+	background:red;
+	width:300px;
+	float:left;
+}
+.right{
+	height:500px;
+	background:blue;
+	width:100px;
+	float:right;
+}
+.middle{
+	height:500px;
+	background:green;	
+}
+*/
+/*2.margin负值*/
+html,body{
+	margin:0;
+	height:100%;
+	min-width:400px;
+}
+.whole{
+	height:100%;
+	width:100%;	
+	padding:0 200px;
+	overflow:auto;
+}
+.middle{
+	height:100%;
+	width:100%;
+	background:green;
+	float:left;	
+}
+.left{
+	height:100%;
+	width:200px;
+	float:left;
+	margin-left:-100%;
+	background:red;
+	position:relative;
+	left:-200px;
+}
+.right{
+	height:100%;
+	width:200px;
+	float:left;
+	margin-left:-200px;
+	background:blue;
+	position:relative;
+    left:-200px;
+}
+/*
+html,body{
+	margin:0;
+	height:100%;
+}
+.right{
+	height:100%;
+	background:green;	
+	margin-left:400px;
+}
+.left{
+	height:100%;
+	width:200px;
+	position:absolute;
+	top:0;
+	left:0;
+	background:red;
+}
+.middle{
+	height:100%;
+	width:200px;
+	position:absolute;
+	left:200px;
+	top:0;
+	background:blue;
+}
+*/
